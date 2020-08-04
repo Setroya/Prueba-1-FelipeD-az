@@ -1,4 +1,8 @@
 void promedio(struct lista *L){
+       struct lista *lista=L;
+       int calculo=0;
+       int contador=0;	
+       float promedio;	
        }
    
    
