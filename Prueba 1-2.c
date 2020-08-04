@@ -6,6 +6,9 @@ void busqueda_binaria(int n,struct *L){
            if(lista->actual->numero==n){
             lugar=lista->actual->lugar-1
            }
+           else{
+               lista->actual=lista->actual->siguiente;
+               return nohay;}
  
     }
    }
